@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: teams-service
+
+  datasource:
+    url: jdbc:mariadb://localhost:3306/soccer
+    username: appuser
+    password: apppass
+    driver-class-name: org.mariadb.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update       # cria/atualiza tabelas automaticamente
+    show-sql: true           # mostra queries SQL no console
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    com.jceloto7.teams_service: DEBUG
