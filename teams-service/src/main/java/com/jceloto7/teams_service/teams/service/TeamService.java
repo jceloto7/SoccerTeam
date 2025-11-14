@@ -10,7 +10,6 @@ import java.util.List;
 @Service
 @RequiredArgsConstructor
 @Slf4j
-
 public class TeamService {
 
     private final TeamRepository teamRepository;

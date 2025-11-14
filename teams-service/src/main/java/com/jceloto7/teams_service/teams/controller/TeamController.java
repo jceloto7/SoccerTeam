@@ -12,8 +12,6 @@ import java.util.List;
 @RequestMapping("/teams")
 @RequiredArgsConstructor
 @Slf4j
-
-
 public class TeamController {
 
     private final TeamService teamService;
