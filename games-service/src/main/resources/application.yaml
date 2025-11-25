@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: games-service
+
+    datasource:
+      url: jdbc:mariadb://localhost:3306/soccer
+      username: appuser
+      password: apppass
+      driver-class-name: org.mariadb.jdbc.Driver
+
+    jpa:
+      hibernate:
+        ddl-auto: update
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.MariaDBDialect
+      show-sql: true
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    com.jceloto7.games_service: DEBUG
+
+
