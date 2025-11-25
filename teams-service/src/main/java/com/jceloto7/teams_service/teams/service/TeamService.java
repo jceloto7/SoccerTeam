@@ -24,12 +24,13 @@ public class TeamService {
         return teamRepository.findAll();
     }
 
+/*
     public Team getTeamById(Long id) {
         log.debug("Buscando time pelo id: {}", id);
         return teamRepository.findById(id)
                 .orElse(null);
     }
-
+*/
     public Team updateTeam(Long id, Team updated) {
         log.info("Atualizando time id={} com novos dados", id);
         return teamRepository.findById(id).map(team -> {
