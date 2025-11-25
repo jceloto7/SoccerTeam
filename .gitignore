@@ -1,0 +1,54 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Build output
+/target/
+out/
+
+# Maven
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Logs
+*.log
+*.log.*
+
+# Temporary files
+*.swp
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# JAR Files
+*.jar
+
+# Files from IDE-specific builds (e.g., IntelliJ IDEA)
+.idea/
+*.iml
+
+# Configuration files
+/.env
+/.env.local
+/.env.*.local
+
+# Spring Boot specific
+*.war
+*.ear
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
